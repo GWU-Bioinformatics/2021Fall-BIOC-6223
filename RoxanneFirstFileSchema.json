@@ -40,19 +40,19 @@
   "type" : "object",
   "properties": {
     "APOEACC#": {
-      "type" : "number"
+      "type" : "string"
     },
         "IL6ACC#" : {
-      "type" : "number"
+      "type" : "string"
     },
       "TP53ACC#": {
-      "type" : "number"
+      "type" : "string"
     },
     "TNFACC#": {
-      "type" : "number"
+      "type" : "string"
     },
     "VEGFAACC#": {
-      "type" : "number"
+      "type" : "string"
     }
 },
 "required" : ["APOEACC#" , "IL6ACC#" , "TP53ACC#" ,     "TNFACC#", "VEGFAACC#"]
