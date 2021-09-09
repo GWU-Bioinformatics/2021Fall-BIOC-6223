@@ -14,8 +14,9 @@
     "TNFLength" : 9763,
     "VEGFALength: 23272
   },
+  
   "Accession Number" : {
-    "APOEACC#" : "NG_007084",
+    "APOEACC#" : "NG_007084" ,
     "IL6ACC#" : "NG_011640",
     "TP53ACC#" : "NG_007013",
     "TNFACC#": "NG_007642",
