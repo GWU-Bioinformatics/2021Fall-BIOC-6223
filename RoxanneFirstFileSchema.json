@@ -1,1 +1,58 @@
-
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "https://github.com/TIHroh/2021Fall-BIOC-6223/edit/main/RoxanneFirstFileSchema.json",
+  "type" : "object",
+  "title": "Gene Data",
+  "description": "Data information on five genes in the human genome including base pair length and their accession numbers",
+  "properties": {
+    "Species":{
+    "description": "Species organism for all genes",
+    "type" : "string"
+  },
+  "GeneList" : {
+    "description" : "full gene names with HGNC notation",
+    "type": "array",
+    "items": {
+      "type" : "string"
+    },
+    "Length" : {
+      "type": "object",
+      "properties": {
+        "APOELength": {
+  "type" : "number"
+        }
+        "Il6Length" : {
+        "type" : "number"
+      }
+      "TP53Length" : {
+      "type" : "number"
+    }
+    "TNFLength" : {
+    "type" : "number"
+  } 
+    "VEGFALength" : {
+    "type" : "number"
+  }
+},
+"required" : ["APOELength" , "IL6Length", "TP53Length", "TNFLength", "VEGFALength" ]
+},
+"Accession Number" : {
+  "type" : "object",
+  "properties": {
+    "APOEACC#" : {
+      "type" : "number"
+    }
+        "IL6ACC#" : {
+      "type" : "number"
+    }
+      "TP53ACC#" : {
+      "type" : "number"
+    }
+    "TNFACC#" : {
+      "type" : "number"
+    }    "VEGFAACC#" : {
+      "type" : "number"
+    }
+},
+"required" : ["APOEACC#" , "IL6ACC#" , "TP53ACC#" ,     "TNFACC#", "VEGFAACC#"]
+}
