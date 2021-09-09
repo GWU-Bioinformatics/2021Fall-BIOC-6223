@@ -8,11 +8,11 @@
     "VEGFA(vascular endothelial growth factor)"
     ],
   "Length" : {
-    "APOELength" : "10612",
-    "IL6Length" : "11856",
-    "TP53Length" : "32772",
-    "TNFLength" : "9763",
-    "VEGFALength: "23272"
+    "APOELength" : 10612,
+    "IL6Length" : 11856,
+    "TP53Length" : 32772,
+    "TNFLength" : 9763,
+    "VEGFALength: "23272
   },
   "Accession Number" : {
     "APOEACC#" : "NG_007084",
