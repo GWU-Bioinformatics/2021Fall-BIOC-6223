@@ -20,16 +20,16 @@
       "properties": {
         "APOELength": {
   "type" : "number"
-        }
+        },
         "Il6Length": {
         "type" : "number"
-      }
+      },
       "TP53Length": {
       "type" : "number"
-    }
+    },
     "TNFLength": {
     "type" : "number"
-  } 
+  } ,
     "VEGFALength": {
     "type" : "number"
   }
@@ -41,16 +41,17 @@
   "properties": {
     "APOEACC#": {
       "type" : "number"
-    }
+    },
         "IL6ACC#" : {
       "type" : "number"
-    }
+    },
       "TP53ACC#": {
       "type" : "number"
-    }
+    },
     "TNFACC#": {
       "type" : "number"
-    }    "VEGFAACC#": {
+    },
+    "VEGFAACC#": {
       "type" : "number"
     }
 },
