@@ -9,48 +9,48 @@
     "description": "Species organism for all genes",
     "type" : "string"
   },
-  "GeneList" : {
+  "GeneList": {
     "description" : "full gene names with HGNC notation",
     "type": "array",
     "items": {
       "type" : "string"
     },
-    "Length" : {
+    "Length": {
       "type": "object",
       "properties": {
         "APOELength": {
   "type" : "number"
         }
-        "Il6Length" : {
+        "Il6Length": {
         "type" : "number"
       }
-      "TP53Length" : {
+      "TP53Length": {
       "type" : "number"
     }
-    "TNFLength" : {
+    "TNFLength": {
     "type" : "number"
   } 
-    "VEGFALength" : {
+    "VEGFALength": {
     "type" : "number"
   }
 },
-"required" : ["APOELength" , "IL6Length", "TP53Length", "TNFLength", "VEGFALength" ]
+"required": ["APOELength" , "IL6Length", "TP53Length", "TNFLength", "VEGFALength" ]
 },
-"Accession Number" : {
+"Accession Number": {
   "type" : "object",
   "properties": {
-    "APOEACC#" : {
+    "APOEACC#": {
       "type" : "number"
     }
         "IL6ACC#" : {
       "type" : "number"
     }
-      "TP53ACC#" : {
+      "TP53ACC#": {
       "type" : "number"
     }
-    "TNFACC#" : {
+    "TNFACC#": {
       "type" : "number"
-    }    "VEGFAACC#" : {
+    }    "VEGFAACC#": {
       "type" : "number"
     }
 },
