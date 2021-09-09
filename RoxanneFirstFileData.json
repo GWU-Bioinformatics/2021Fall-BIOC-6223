@@ -15,12 +15,12 @@
     "VEGFALength: 23272
   },
   
-  "Accession" : {
-    "APOE#" : "NG_007084" ,
-    "IL6#" : "NG_011640",
-    "TP53#" : "NG_007013",
-    "TNF#": "NG_007642",
-    "VEGFA#" : "NG_008732"
+  "Accession Number" : {
+    "APOEAAC#" : "NG_007084" ,
+    "IL6AAC#" : "NG_011640",
+    "TP53AAC#" : "NG_007013",
+    "TNFAAC#": "NG_007642",
+    "VEGFAACC#" : "NG_008732"
   }
 }
     
