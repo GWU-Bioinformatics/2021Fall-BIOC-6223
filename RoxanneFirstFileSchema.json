@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "id": "https://github.com/TIHroh/2021Fall-BIOC-6223/edit/main/RoxanneFirstFileSchema.json",
+  "id": "https://raw.githubusercontent.com/TIHroh/2021Fall-BIOC-6223/main/RoxanneFirstFileSchema.json",
   "type" : "object",
   "title": "Gene Data",
   "description": "Data information on five genes in the human genome including base pair length and their accession numbers",
