@@ -1,1 +1,18 @@
-
+{
+  "Species" : "Homo sapiens",
+  "GeneList" : [
+    "APOE(apoliprotein)",
+    "Il6(interleukin-6)",
+    "TP53(tumor protein)",
+    "TNF(tumor necrosis factor)",
+    "VEGFA(vascular endothelial growth factor)"
+    ],
+  "Length" : {
+    "APOELength" : "10612",
+    "IL6Length" : "11856",
+    "TP53Length" : "32772",
+    "TNFLength" : "9763",
+    "VEGFALength: "23272"
+  },
+  "Accession Number" : {
+    
