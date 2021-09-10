@@ -1,5 +1,4 @@
-  
-{
+    {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://github.com/TIHroh/2021Fall-BIOC-6223/blob/main/RoxanneFirstFileSchema.json ",
   "type" : "object",
@@ -16,45 +15,29 @@
     "items": {
       "type" : "string"
     },
+  },
     "Length": {
       "type": "object",
       "properties": {
-        "APOE": {
-  "type" : "number"
-        },
-        "AKT1": {
-        "type" : "number"
-      },
-      "EGFR": {
-      "type" : "number"
-    },
-    "TNF": {
-    "type" : "number"
-  } ,
-    "VEGFA": {
-    "type" : "number"
-  }
+        "APOE": { "type" : "number"},
+        "AKT1": { "type" : "number"},
+      "EGFR": {"type" : "number"},
+    "TNF": { "type" : "number"  } ,
+    "VEGFA": {"type" : "number"}
 },
 "required": ["APOE" , "AKT1", "EGFR", "TNF", "VEGFA" ]
 },
 "Accession Number": {
   "type" : "object",
   "properties": {
-    "APOE#": {
-      "type" : "string"
-    },
-        "AKT1#" : {
-      "type" : "string"
-    },
-      "EGFR#": {
-      "type" : "string"
-    },
-    "TNF#": {
-      "type" : "string"
-    },
-    "VEGFA#": {
-      "type" : "string"
-    }
+    "APOE#": {"type" : "string"},
+        "AKT1#" : {"type" : "string"},
+      "EGFR#": {"type" : "string"},
+    "TNF#": {"type" : "string"},
+    "VEGFA#": {"type" : "string"}
 },
 "required" : ["APOE#" , "AKT1#" , "EGFR#" ,"TNF#", "VEGFA#"]
-}
+},
+  }
+  }
+ 
