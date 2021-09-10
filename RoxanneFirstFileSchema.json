@@ -18,42 +18,42 @@
     "Length": {
       "type": "object",
       "properties": {
-        "APOELength": {
+        "APOE": {
   "type" : "number"
         },
-        "Il6Length": {
+        "AKT1": {
         "type" : "number"
       },
-      "TP53Length": {
+      "EGFR": {
       "type" : "number"
     },
-    "TNFLength": {
+    "TNF": {
     "type" : "number"
   } ,
-    "VEGFALength": {
+    "VEGFA": {
     "type" : "number"
   }
 },
-"required": ["APOELength" , "IL6Length", "TP53Length", "TNFLength", "VEGFALength" ]
+"required": ["APOE" , "AKT1", "EGFR", "TNF", "VEGFA" ]
 },
 "Accession Number": {
   "type" : "object",
   "properties": {
-    "APOEACC#": {
+    "APOE#": {
       "type" : "string"
     },
-        "IL6ACC#" : {
+        "AKT1#" : {
       "type" : "string"
     },
-      "TP53ACC#": {
+      "EGFR#": {
       "type" : "string"
     },
-    "TNFACC#": {
+    "TNF#": {
       "type" : "string"
     },
-    "VEGFAACC#": {
+    "VEGFA#": {
       "type" : "string"
     }
 },
-"required" : ["APOEACC#" , "IL6ACC#" , "TP53ACC#" ,     "TNFACC#", "VEGFAACC#"]
+"required" : ["APOE#" , "AKT1#" , "EGFR#" ,     "TNF#", "VEGFA#"]
 }
