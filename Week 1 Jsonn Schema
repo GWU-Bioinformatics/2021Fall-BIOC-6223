@@ -1,0 +1,55 @@
+{
+
+    "$schema": "http://json-schema.org/draft-07/schema",
+
+    "$id": "http://example.com/example.json",
+
+    "type": "array",
+
+    "title": "5 K9 Genes",
+
+    "description": "5 K9 Genes”
+
+    "required": [
+
+                "Name",
+
+                "integer",
+
+                “AccessionNumber”
+
+            ],
+
+ 
+
+"properties": {
+
+        "Name": {
+
+                   "type": "string"
+
+     “description” : “ The abbreviated name of the gene”
+
+},
+
+        "integer": {
+
+                   "type": "string"
+
+                   “description : “The length, in base-pairs”
+
+},
+
+        "AccessionNumber": {
+
+                   "type": "string"
+
+                   “description : “The identifier number”
+
+ 
+
+}
+
+}
+
+}
