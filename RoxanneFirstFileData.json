@@ -2,25 +2,25 @@
   "Species" : "Homo sapiens",
   "GeneList" : [
     "APOE(apoliprotein)",
-    "Il6(interleukin-6)",
-    "TP53(tumor protein)",
+    "AKT1(AKT serine/threonine)",
+    "EGFR(epidermal growth factor)",
     "TNF(tumor necrosis factor)",
     "VEGFA(vascular endothelial growth factor)"
     ],
   "Length" : {
-    "APOELength" : 10612,
-    "IL6Length" : 11856,
-    "TP53Length" : 32772,
-    "TNFLength" : 9763,
-    "VEGFALength": 23272
+    "APOE" : 10612,
+    "AKT1" : 33396,
+    "EGFR" : 106383,
+    "TNF" : 9763,
+    "VEGFA": 23272
   },
   
   "Accession Number" : {
-    "APOE" : "NG_007084" ,
-    "IL6" : "NG_011640",
-    "TP53" : "NG_007013",
-    "TNF": "NG_007642",
-    "VEGFA" : "NG_008732"
+    "APOE#" : "NG_007084" ,
+    "AKT1#" : "NG_012188",
+    "EGFR#" : "NG_011441",
+    "TNF#": "NG_007642",
+    "VEGFA#" : "NG_008732"
   }
 }
     
