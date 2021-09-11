@@ -6,11 +6,11 @@
   "description": "Data information on five genes in the human genome including base pair length and their accession numbers",
   "properties": {
     "Species":{
-    "description": "Species organism for all genes",
+    "description": "Species/organism used for the genes",
     "type" : "string"
   },
   "GeneList": {
-    "description" : "full gene names with HGNC notation",
+    "description" : "Full gene names and their abbreviation with HGNC notation describing their function in the species specified",
     "type": "array",
     "items": {
       "type" : "string"
