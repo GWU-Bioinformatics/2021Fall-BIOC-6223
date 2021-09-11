@@ -1,16 +1,16 @@
 {
   "Species" : "Homo sapiens",
   "GeneList" : [
-    "APOE(apoliprotein)",
-    "AKT1(AKT serine/threonine)",
-    "EGFR(epidermal growth factor)",
+    "APOE(apoliprotein E)",
+    "AKT1(AKT serine/threonine kinase 1)",
+    "EGFR(epidermal growth factor receptor)",
     "TNF(tumor necrosis factor)",
-    "VEGFA(vascular endothelial growth factor)"
+    "VEGFA(vascular endothelial growth factor A)"
     ],
   "Length" : {
     "APOE" : 10612,
     "AKT1" : 33396,
-    "EGFR" : 106383,
+    "EGFR" : 244589,
     "TNF" : 9763,
     "VEGFA": 23272
   },
@@ -18,8 +18,8 @@
   "Accession Number" : {
     "APOE#" : "NG_007084" ,
     "AKT1#" : "NG_012188",
-    "EGFR#" : "NG_011441",
-    "TNF#": "NG_007642",
+    "EGFR#" : "NG_007726",
+    "TNF#": "NG_007462",
     "VEGFA#" : "NG_008732"
   }
 }
