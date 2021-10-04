@@ -1,0 +1,58 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://example.com/object1631327910.json",
+    "title": "Root",
+    "type": "object",
+    "required": [
+        "Homo sapiens Enzyme genes"
+    ],
+    "properties": {
+        "Homo sapiens Enzyme genes": {
+            "$id": "#root/Homo sapiens Enzyme genes",
+            "title": "Homo sapiens enzyme genes",
+            "type": "array",
+            "description": "List of enzymes found in human body",
+            "items": {
+                "$id": "#root/Homo sapiens Enzyme genes/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "name",
+                    "lenght in bp",
+                    "accession number"
+                ],
+                "properties": {
+                    "name": {
+                        "$id": "#root/Homo sapiens Enzyme genes/items/name",
+                        "title": "Name",
+                        "type": "string",
+                        "description": "the name of the gene for a Homo Sapiens enzyme",
+                        "examples": [
+                            "lactate dehydrognase mRNA"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "lenght in bp": {
+                        "$id": "#root/Homo sapiens Enzyme genes/items/lenght in bp",
+                        "title": "Lenght in bp",
+                        "type": "integer",
+                        "description": "the length of the gene in bp",
+                        "examples": [
+                            1713
+                        ]
+                    },
+                    "accession number": {
+                        "$id": "#root/Homo sapiens Enzyme genes/items/accession number",
+                        "title": "Accession number",
+                        "type": "string",
+                        "description": "the accession number of the gene in the NCBI Nucleotide Data base",
+                        "examples": [
+                            "AY_581313.1"
+                        ],
+                        "pattern": "^.*$"
+                    }
+                }
+            }
+        }
+    }
+}
