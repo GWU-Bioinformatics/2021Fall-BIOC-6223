@@ -1,0 +1,45 @@
+    {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/TIHroh/2021Fall-BIOC-6223/main/RoxanneFirstFileSchema.json",
+  "type" : "object",
+  "title": "Gene Data",
+  "description": "Data information on five genes in the human genome including base pair length and their accession numbers",
+  "properties": {
+    "Species":{
+    "description": "Species/organism used for the genes",
+    "type" : "string"
+  },
+  "GeneList": {
+    "description" : "Full gene names and their abbreviation with HGNC notation describing their function in the species specified",
+    "type": "array",
+    "items": {
+      "type" : "string"
+    },
+  },
+    "Length": {
+        "description" : "Gene HGNC abbreviations with their base pair lengths",
+      "type": "object",
+      "properties": {
+        "APOE": { "type" : "number"},
+        "AKT1": { "type" : "number"},
+      "EGFR": {"type" : "number"},
+    "TNF": { "type" : "number"  } ,
+    "VEGFA": {"type" : "number"}
+},
+"required": ["APOE" , "AKT1", "EGFR", "TNF", "VEGFA" ]
+},
+"Accession Number": {
+    "description" : "Accession Numbers (ACC) for HGNC abbreviated genes",
+  "type" : "object",
+  "properties": {
+    "APOE#": {"type" : "string"},
+        "AKT1#" : {"type" : "string"},
+      "EGFR#": {"type" : "string"},
+    "TNF#": {"type" : "string"},
+    "VEGFA#": {"type" : "string"}
+},
+"required" : ["APOE#" , "AKT1#" , "EGFR#" ,"TNF#", "VEGFA#"]
+},
+  }
+  }
+ 
